@@ -7,12 +7,10 @@ const Result = () => {
   const { probabilities } = location.state || { probabilities: {} };
   const [selectedDisease, setSelectedDisease] = useState(null);
 
-  // Check if probabilities is not an object or is empty
   if (!probabilities || typeof probabilities !== 'object') {
     return <div className="text-center text-lg mt-10 text-gray-500">No prediction results available.</div>;
   }
 
-  // Filter diseases with probability greater than 80
   const highProbabilityDiseases = Object.entries(probabilities).filter(([_, prob]) => prob > 80);
 
   return (

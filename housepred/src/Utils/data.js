@@ -1,19 +1,3 @@
-// // data.js
-// export const symptoms = [
-//     'fever',
-//     'cough',
-//     'headache',
-//     'sore_throat',
-//     'fatigue',
-//     'muscle_pain',
-//     'loss_of_taste',
-//     'shortness_of_breath',
-//   ];
-  
-//   export const diseases = ['Flu', 'Tumor', 'Lead_to_Cancer', 'Jaundice'];
-  
-
-// data.js
 export const symptoms = [
     'fever',
     'cough',
